@@ -1,0 +1,506 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color:rgb(216, 207, 207);
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+  
+}
+/* Header Starts */
+.header{
+    width: 100%;
+    display: flex;
+    position: sticky;
+    height:50px;
+    top: 0;
+    z-index:999;
+    justify-content: space-evenly;
+    border-bottom: 0.1px solid lightgray;
+    background-color: white;
+    padding: 10px;
+}
+.header_left img{
+  object-fit: contain; 
+  height: 40px; 
+  margin-right:5px;
+}
+.header_left{
+ display: flex;   
+}
+.header_right{
+display: flex;
+
+}
+.header_search{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    height: 20px;
+    color: black;
+    background-color: rgb(187, 230, 247);
+}
+.header_search input{
+    outline: none;
+    border: none;
+    background: none;
+}
+.headeroption{
+   display: flex; 
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-evenly;
+   margin-right: 20px;
+   color: grey;
+   cursor: pointer;
+}
+.headeroption:hover{
+    color: black;
+}
+.headeroption h3{
+    font-size: 12px;
+}
+.headeroption1 img{
+    border-radius: 50%;
+    height: 40px;
+}
+.headeroption1 {
+    border-left: 1px solid grey;
+    
+}
+.headeroption1{
+    display: flex;
+}
+
+.sidepic{
+    display: grid;
+}
+
+.headeroption1 a{
+   font-size: 15px;
+}
+
+/* Header Ends */
+
+
+
+/*Main body starts*/
+
+.main{
+    display: flex;
+    margin-top: 20px;
+    width: 1220px;
+    
+ 
+}
+   
+/*sidebar starts*/
+
+.sidebar{
+    position: sticky;
+   top:80px;
+   flex:0.3;
+    border-radius: 10px;
+    text-align: center;
+    height: fit-content;
+    background-color:white;
+   
+    margin-right: 10px;
+    
+}
+.sidebartop img{
+    margin-bottom: -20px;
+    width:100%;
+    height: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+
+}
+.img1 img{
+    border-radius: 80%;
+    height: 60px;
+}
+.sidebartop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid lightgray;
+    border-bottom: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: white;
+    padding-bottom: 10px;
+    
+
+}
+.sidebarstatus{
+padding: 10px;
+border: 2px solid lightgray;
+background-color: white;
+}
+
+.sidebarstat{
+ display: flex; 
+ justify-content: space-between; 
+}
+.sidebarnum{
+    font-weight: bold;
+    color: blue;
+}
+.access{
+    padding: 10px;
+    border: 1px solid lightgray;
+ 
+  
+}
+.Items{
+    padding: 5px;
+    display: flex;
+    border: 2px solid lightgray;
+   border-bottom-right-radius: 10px;
+   border-bottom-left-radius: 10px;
+   margin-bottom: 10px;
+
+}
+.sidebarbottom{
+    padding: 8px;
+    border: 2px solid lightgray;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: left;
+    background-color: white;
+
+}
+
+.recent{
+    display: flex;
+    font-size: 13px;
+    color: grey;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.recent:hover{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+}
+.hash{
+    margin: 0 8px;
+}
+.material-icons{
+    margin:0 10px;
+}
+
+/*Sidebar Ends*/
+
+/*Post Starts*/
+
+.post{
+    flex:0.4;
+   
+    
+
+}
+
+/*post input starts */
+
+.feed{
+    display: flex;
+}
+
+.post_input{
+    background-color: white;
+   
+    margin-bottom: 20px;
+    border: 1px solid lightgray;
+    border-radius: 30px;
+    display: grid;
+    padding: 10px;
+   
+}
+.post_img input{
+    width: 570px;
+    height:40px;
+    border: 2px solid lightgray;
+    border-radius: 40px;
+    padding: 5px;
+    
+    
+}
+.post_input img{
+    border-radius: 100%;
+   height: 45px;
+   margin-right: 20px; 
+   margin-left: 10px;
+}
+
+.post_items{
+    display: flex;
+     justify-content: space-evenly;
+}
+
+.postoptions{
+    display:flex;
+    align-items: center;
+   margin-top: 10px;
+    color: grey;
+    padding: 10px;
+    cursor: pointer;
+
+}
+.postoptions:hover{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    color:rgb(192, 144, 238);
+
+}
+
+/* post input ends */
+
+/* Post view1 section starts */
+
+.postview1{
+    background-color: white;
+    margin-bottom: 20px;
+    border: 1px solid lightgray;
+   
+}
+.logo{
+    background-color: white;
+    display: flex;
+   justify-content: space-between;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.logopic{
+    margin-right: 10px;
+}
+
+.logopic img{
+    height: 70px;
+    display: flex;
+}
+.data p{
+    color: grey;
+    font-size: 15px;
+
+}
+.myntra{
+    display: flex;
+}
+
+.Demopic img{
+   height: 500px;
+   width: 730px;
+}
+.react{
+    display: flex;
+    padding: 2px;
+    padding-bottom: 5px;
+}
+.reacts{
+    display: flex;
+    margin-right: 25px;
+}
+.react p{
+    color: grey;
+}
+.action{
+    display: flex;
+    border: 1px solid lightgray;
+    
+}
+.action_icon{
+    display: flex;
+    color: grey;
+    padding: 10px;
+    cursor: pointer;
+
+}
+.action_icon:hover{
+    color:rgb(140, 211, 235);
+    background-color:aliceblue;
+    border-radius: 10px;
+}
+
+/* Post view1 section ends */
+
+
+/* Post view2 section starts */
+
+.postview2{
+    background-color: white;
+    margin-bottom: 20px;
+    border: 1px solid lightgray;
+    
+}
+.Info_bar{
+    display: flex;
+    justify-content: space-between;
+}
+.yash_info{
+    display: flex;
+}
+.logo1 img{
+    height: 60px;
+    padding-right: 10px;
+}
+.profile_data p{
+    color: grey;
+    font-size: 14px;
+}
+.overview{
+    padding: 15px;
+}
+
+
+/* Post view2 section ends */
+
+/*Post Ends*/
+
+/* Activity Bar starts */
+
+.Activity{
+    position: sticky;
+    top:80px;
+    flex: 0.3;
+    margin-left: 10px;
+   
+   
+    
+}
+
+.Activity1{
+   
+    background-color: white;
+   
+  
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.upperhead{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+.Activity_data{
+    padding: 17px;
+}
+.Activity_data p{
+    color: grey;
+    font-size: 13px;
+}
+.Activity2{
+    background-color: white;
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 10px; 
+   
+    
+}
+.Activity_data1{
+    padding: 17px;
+}
+.Activity_data1 p{
+    color: grey;
+    font-size: 13px;
+}
+.Activity3{
+    background-color: white;
+   border: 1px solid lightgray;
+    border-radius: 10px; 
+    margin-top: 20px; 
+   
+}
+.data2pic img{
+    height: 70px;
+}
+.Activity_data2{
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+.Unilever_data p{
+    color: grey;
+}
+
+.Unilever_data button{
+   height: 30px;
+   width: 150px;
+   border-radius: 20px;
+   cursor: pointer;
+   background-color: white;
+}
+.Unilever_data button:hover{
+    color: rgb(168, 99, 233);
+    background-color: rgb(217, 243, 234);
+}
+.Activity_data3{
+    display: flex;
+    border: 1px solid lightgray;
+    padding: 5px;
+ padding-bottom: 20px;
+ padding-top: 20px;
+}
+.data3pic img{
+    height: 50px;
+    margin-right: 8px;
+}
+
+.linkedIn_data p{
+    color: grey;
+}
+.linkedIn_data button{
+    height: 30px;
+    width: 150px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: white;  
+}
+.linkedIn_data button:hover{
+    color: rgb(168, 99, 233);
+    background-color: rgb(205, 243, 231); 
+}
+.Activity_data4{
+    display: flex;
+    border: 1px solid lightgray;
+    padding: 5px;
+ padding-bottom: 20px;
+ padding-top: 20px;  
+}
+.data4pic img{
+    height: 60px;
+}
+
+.myntra_data p{
+   color: grey;
+}
+
+.myntra_data button{
+    height: 30px;
+    width: 150px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: white;   
+}
+.myntra_data button:hover{
+    color: rgb(168, 99, 233);
+    background-color: rgb(205, 243, 231);  
+}
+
+/* Activity Bar ends */
+
+/*Main body ends */
